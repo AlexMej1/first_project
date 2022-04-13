@@ -1,8 +1,11 @@
 body{
-    /* background-color: brown; */
     direction: rtl;
     height: 1000px;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+div{
+    display: block;
 }
 .header-con{
     display: flex;
@@ -11,11 +14,19 @@ body{
     padding: 12px;
     height: 50px; 
 }
-.divi{
+/* .divi{
     border: 1px solid black;
-}
+} */
 .search-div{
     display: flex;
-    align-items: center;
+    align-items: center; 
 }
-
+a:hover{
+    cursor: pointer;
+}
+img:hover{
+    cursor: pointer;
+}
+.img-table{
+ width: 200;   
+}
